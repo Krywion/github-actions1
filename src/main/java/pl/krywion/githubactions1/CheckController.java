@@ -11,4 +11,9 @@ public class CheckController {
     public String check() {
         return "Application Works!";
     }
+
+    @GetMapping("/anothercheck")
+    public String anotherCheck() {
+        return "Application Works!2";
+    }
 }
